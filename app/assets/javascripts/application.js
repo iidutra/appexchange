@@ -11,9 +11,9 @@
 // about supported directives.
 //
 //= require jquery
-//= require rails-ujs
 //= require tether/dist/js/tether
+//= require bootstrap/dist/js/bootstrap.bundle
+//= require rails-ujs
 //= require activestorage
 //= require turbolinks
-//= require bootstrap/dist/js/bootstrap.bundle
 //= require_tree .

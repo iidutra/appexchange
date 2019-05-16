@@ -15,3 +15,17 @@ $(document).ready ->
           success: (data, text, jqXHR) ->
             $('#result').val(data.value)
         return false;
+        
+$(document).ready ->
+  $('#amount').change () ->
+    getConvert()
+  $('form').submit (event)->
+    event.preventDefault()
+
+  $('#invert').click ->
+    currency_1 = $("#target_currency").val()
+    currency_2 = $("#source_currency").val()
+
+    $("#target_currency").val(currency_2)
+    $("#source_currency").val(currency_1)
+    getConvert()

@@ -1,10 +1,12 @@
 body {
-  background: image-url("/background-img.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
+  background: image-url("/background3.jpg") no-repeat center center fixed;
+  // -webkit-background-size: cover;
+  // -moz-background-size: cover;
+  // -o-background-size: cover;
+  // background-size: cover;
+  background-color: #4F4B57;
+ }
+
 
 .main{
   margin-top: 50px;
@@ -25,6 +27,7 @@ body {
     font-size: 30px;
     margin-left: 10px;
     margin-right: 10px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
   }
 }
 
